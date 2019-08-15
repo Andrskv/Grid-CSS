@@ -1,0 +1,127 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 72px;
+}
+h1 + p {
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+p {
+    font-size: 36px;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #f9f9f9;
+    border-radius: 32px;
+    border: solid 3px #f9f9f9;
+    padding: 20px 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    justify-self: start;
+}
+.grid {
+    display: grid;
+    grid-template-areas: "a a a a" "a a a a" "b b c c" "d e f g" "j j k l" "m m n n";
+    grid-template-columns: 400px 400px 400px 400px;
+}
+.grid-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    widht: 400px;
+    height: 500px;
+}
+.grid-item-main {
+    background-image: url(../img/bg-main.png);
+    grid-area: a;
+    widht: 1600px;
+    height: 900px;
+    color: #000;
+    align-content: center;
+    padding-left: 200px;
+    padding-right: 760px;
+    display:grid;
+}
+.grid-item-red {
+    background-image: url(../img/bg-red.png);
+    grid-area: b;
+    widht: 800px;
+    height: 500px;
+}
+.grid-item-lgray {
+    background-color: #f3f1ef;
+    grid-area: c;
+    padding-left: 60px;
+    color: #666;
+    align-content: center;
+    padding-left: 60px;
+    display: grid;
+    h2 {
+    }
+    p {
+    }
+}
+.grid-item-pic1 {
+    background-image: url(../img/bg-one.png);
+    grid-area: d;
+}
+.grid-item-pic2 {
+    background-image: url(../img/bg-two.png);
+    griid-area: e;
+}
+.grid-item-pic3 {
+    background-image: url(../img/bg-three.png);
+    grid-area: f;
+}
+.grid-item-pic4 {
+    background-image: url(../img/bg-four.png);
+    grid-area: g;
+}
+.grid-item-blue-text {
+  grid-area: j;
+  align-self: center;
+  color: #f9f9f9;
+  align-content: center;
+  color: #f9f9f9;
+  padding-left: 200px;
+  padding-right: 100px;
+  display:grid;
+}
+.grid-item-pic5 {
+    background-image: url(../img/bg-five.png);
+    grid-area: k;
+}
+.grid-item-bluebg {
+}
+.grid-item-blue {
+    background-color: #3f729b;
+    color: #fff;
+    align-self: center;
+    color: #f9f9f9;
+}
+.grid-item-green {
+    background-color: #2ebd59;
+    color: #fff;
+    grid-area: m;
+    align-content: center;
+    color: #f9f9f9;
+    padding-left: 200px;
+    padding-right: 100px;
+    display:grid;
+
+}
+.grid-item-gray {
+    background-color: #282b2f;
+    color: #fff;
+    grid-area: n;
+    align-content: center;
+    color: #f9f9f9;
+    padding-left: 60px;
+    display: grid;
+}
